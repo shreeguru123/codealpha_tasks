@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Music Player</title>
+    <!-- Load FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <!-- Load the custom CSS style file -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id='card'>
+      <div id='display'>
+        <div id='header'>
+          <h1 id='title'></h1>
+          <p>
+            <span id='song_title'></span>
+          </p>
+        </div>
+        <div id='image'>
+          <img src='' alt='' id='art' />
+        </div>
+        <audio controls src='' id='audio'>
+        </audio>
+      </div>
+      <div id='list'>
+      </div>
+    </div>
+
+    <!-- Load the main script for the player -->
+    <script src="main.js"></script>
+  </body>
+</html>
